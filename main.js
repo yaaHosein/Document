@@ -9,3 +9,11 @@ element2.textContent = "Div two"
 const element3 = document.getElementById("main3");
 console.log(element3);
 element3.textContent = "Div three"
+
+
+console.log("2740");
+
+const app = document.getElementById("app");
+app.addEventListener("click", function() {
+    console.log("clicked")
+})
