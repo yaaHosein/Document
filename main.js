@@ -14,12 +14,11 @@
  console.log("2740");
 
  const app = document.getElementById("app");
- app.addEventListener("click", function() {
-     console.log("clicked")
- })
+
  var button = document.getElementById("app"),
      count = 0;
- button.onclick = function() {
+ app.addEventListener("click", function() {
+     console.log("clicked")
      count += 1;
      button.innerHTML = "Click me" + count;
- };
+ })
