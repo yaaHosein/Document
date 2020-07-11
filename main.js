@@ -11,14 +11,10 @@
  element3.textContent = "Div three"
 
 
- console.log("2740");
-
- const app = document.getElementById("app");
-
- var button = document.getElementById("app"),
-     count = 0;
+ var button = document.getElementById("app")
+ count = 0;
  app.addEventListener("click", function() {
      console.log("clicked")
      count += 1;
-     button.innerHTML = "Click me" + count;
+     button.innerHTML = "Click me " + count;
  })
